@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="FCLogo.png">
+  <title>Food Security in Jordan</title>
+</head>
+
+
+
+<body>
+
+    <div id="splash">
+     <video autoplay muted playsinline class="splash-video">
+      <source src="videologo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+     </video>
+    </div>
+
+    <button id="modeToggle" class="mode-btn">🌙 Dark Mode</button>
+   
+    <div id="progress-bar"></div>
+
+  <header class="header">
+    <img src="FoodSec.png" alt="Logo">
+  </header>
+
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Types-of-Agriculture">Types of Agriculture</a></li>
+      <li><a href="#Statistics">Statistics</a></li>
+      <li><a href="#Irrigation">Irrigation</a></li>
+      <li><a href="#Crops">Crops</a></li>
+      <li><a href="#Plants">Plants</a></li>
+      <li><a href="#Vertical">Vertical Farming</a></li>
+      <li><a href="#Diseases">Plant Diseases</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+
+    <section id="About">
+      <h2>About Food Security</h2>
+       <p>
+         Food security means ensuring consistent access to diverse, nutritious, and culturally relevant food. 
+         In Jordan, this requires balancing sustainability, innovation, and equity.
+       </p>
+      <img src="ph3.png" class="about-img" alt="Agriculture">
+      <div class="story-box">
+        <h3>Journey of a Lentil</h3>
+         <p>
+          Beneath the sun-drenched soil of the Jordan Valley, a lentil grows resiliently. 
+          From field to basket, it represents sustainability, access, and care.
+         </p>
+      </div>
+ 
+      <h3>Key Challenges in Jordan</h3>
+      <ul class="challenge-list">
+        <li>Water scarcity</li>
+        <li>High dependency on imports</li>
+        <li>Climate change & soil degradation</li>
+        <li>Urban expansion</li>
+        <li>Need for better technologies</li>
+      </ul>
+    </section>
+
+
+    <section id="Types-of-Agriculture">
+      <h2>Types of Agriculture</h2>
+      <ul>
+        <li>Rain-fed farming</li>
+        <li>Irrigated farming</li>
+        <li>Greenhouses & vertical farming</li>
+      </ul>
+      <a href="Types-of-Agriculture.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Statistics">
+      <h2>Agricultural Statistics in Jordan</h2>
+        <p>
+          Learn the key figures that shape Jordan's agricultural landscape—from land area to economic output.
+        </p>
+      <a href="statistic.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Irrigation">
+      <h2>Irrigation Systems</h2>
+      <p>
+        Drip irrigation, surface irrigation, and treated wastewater maximize efficiency in Jordan.
+      </p>
+      <a href="irrigation.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Crops">
+      <h2>Available or Rare Crops</h2>
+      <p>
+        Common: tomatoes, olives, citrus. Rare: quinoa, medicinal herbs.
+      </p>
+      <a href="crop.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Plants">
+      <h2>Available or Rare Plants</h2>
+      <p>
+        Jordan hosts native plants like black iris and desert fig, with conservation for endangered species.
+      </p>
+      <a href="plant.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Vertical">
+      <h2>Vertical Farming</h2>
+      <p>
+        Urban initiatives like iPlant and Ivvest support sustainable food production in small spaces.
+      </p>
+      <a href="vertical-farming.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Diseases">
+      <h2>Plant Diseases</h2>
+      <p>
+        Common: tomato speck & crown gall. AI tools help detect and manage crop health.
+      </p>
+      <a href="diseases.html" class="read-button">Read More</a>
+    </section>
+
+
+    <section id="Suggestions">
+      <h2>Share your suggestions with us</h2>
+      <form id="suggestionForm">
+        <input type="text" placeholder="your name" required>
+        <textarea rows="4" placeholder="Write your comments here..." required></textarea>
+        <button type="submit">send</button>
+      </form>
+      <p id="responseMsg" style="color:green;"></p>
+    </section>
+
+  </main>
+
+
+  <script src="homepage.js"></script>
+  
+</body>
+</html>

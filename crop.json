@@ -1,0 +1,23 @@
+{
+  "common": [
+    "Wheat","Barley","corn","Lentils",
+    "Chickpeas","Tomatoes", "Cucumbers", "Potatoes",
+    "Onions", "Cabbage", "Zucchini", "Eggplant", 
+    "Green beans", "Spinach", "Lettuce", "Olives", 
+    "Grapes", "Apples", "Pomegranates", "Figs", 
+    "Peaches", "Apricots", "Plums", "Dates", 
+    "Oranges", "Lemons", "Mandarins", "Mint", 
+    "Thyme (Za'atar)", "Sage", "Chamomile", 
+    "Basil", "Parsley", "Coriander", "Peppers", 
+    "Strawberries"
+  ],
+  "rare": [
+    "Quinoa", "Saffron", "Avocado", "Dragon fruit", 
+    "Asparagus", "Artichoke", "Broccoli", "Brussels sprouts", 
+    "Kale", "Goji berries", "Blueberries", "Raspberries", 
+    "Stevia", "Lavender", "Rosemary", "Aloe vera", "Licorice root", 
+    "Moringa", "Jojoba", "Carob", "Black garlic", "Fennel", 
+    "Passion fruit", "Loquat", "Mulberries", "Medlar", 
+    "Chia seeds", "Amaranth", "Celeriac", "Celosia", "Edamame"
+  ]
+}

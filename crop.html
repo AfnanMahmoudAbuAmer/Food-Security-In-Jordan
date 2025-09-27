@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="website icon" type="png" href="FCLogo.png">
+  <title>Available or Rare Crops</title>
+  <link rel="stylesheet" href="crop.css">
+</head>
+<body>
+
+  <header>
+    Available or Rare Crops in Jordan
+  </header>
+
+  <div class="filter-bar">
+    <input type="text" id="searchInput" placeholder="Search crops..." />
+    <select id="filterSelect">
+      <option value="all">All</option>
+      <option value="common">Common Crops</option>
+      <option value="rare">Rare Crops</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Common Crops</h2>
+      <ul id="common-crops"></ul>
+    </div>
+
+    <div class="card">
+      <h2>Rare Crops</h2>
+      <ul id="rare-crops"></ul>
+    </div>
+  </div>
+
+  <script src="crop.js"></script>
+</body>
+</html>

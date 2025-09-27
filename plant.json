@@ -1,0 +1,19 @@
+{
+  "common": [
+    "Black Iris", "Desert Willow", "Oleander", "Palm tree", "Acacia", 
+    "Carob tree", "Wild Fig", "Pine tree", "Cypress", "Eucalyptus", 
+    "Rosemary", "Thyme", "Sage", "Mint", "Chamomile", "Lavender", 
+    "Bougainvillea", "Jasmine", "Aloe Vera", "Basil", "Olive tree", 
+    "Cactus", "Tamarisk", "Mulberry tree", "Capparis (Caper plant)", 
+    "Wild Marjoram", "Date palm", "Pomegranate tree"
+  ],
+  "rare": [
+    "Wild Tulip", "Jordanian Wild Iris", "Desert Hyacinth", 
+    "Black Calla", "Desert Lupine", "Dead Sea Tamarisk", 
+    "Arum palaestinum", "Desert Crocus", "Anastatica hierochuntica (Rose of Jericho)", 
+    "Dragon’s Blood Tree", "Desert Rhubarb", "Rhamnus palaestina", "Onosma", 
+    "Colchicum tunicatum", "Mandrake", "Sarcopoterium spinosum", "Salvia eigii", 
+    "Verbascum sinaiticum", "Teucrium polium", "Satureja thymbra", "Micromeria fruticosa", 
+    "Ferula communis"
+  ]
+}

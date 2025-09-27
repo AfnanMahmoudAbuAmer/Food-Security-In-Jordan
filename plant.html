@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="website icon" type="png" href="FCLogo.png">
+  <title>Available or Rare Crops</title>
+  <link rel="stylesheet" href="crop.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+    <header>
+    Available or Rare Plants in Jordan
+  </header>
+   
+     <div class="card">
+      <h1>Overview</h1>
+      <p>
+        Jordan is home to a rich variety of native plants, some of which are unique to its climate and terrain. From iconic species like the black iris to rare desert figs, the country’s flora reflects both beauty and resilience.
+      </p>
+    </div>  
+
+ 
+  <div class="filter-bar">
+    <input type="text" id="searchInput" placeholder="Search plant..." />
+    <select id="filterSelect">
+      <option value="all">All</option>
+      <option value="common">Common Plants</option>
+      <option value="rare">Rare Plants</option>
+    </select>
+  </div>
+
+   <div class="container">
+     <div class="card">
+      <h2>Common Plants</h2>
+      <ul id="common-plant"></ul>
+    </div>
+
+    <div class="card">
+      <h2>Rare Plants</h2>
+      <ul id="rare-plant"></ul>
+    </div>
+  </div>
+
+  <script src="plant.js"></script>
+
+  </div>
+
+</body>
+</html>

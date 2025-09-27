@@ -1,0 +1,240 @@
+#splash {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background:  #E0F2E4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  transition: opacity 1s ease;
+  z-index: 2000;
+}
+#splash.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.splash-logo {
+  width:40%;
+  margin-bottom: 15px;
+  animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+
+.mode-btn {
+  position: fixed;        
+  top: 15px;              
+  right: 20px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #415735;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.mode-btn:hover {
+  background: #2e7d32;
+}
+
+body.dark-mode {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+body.dark-mode .header {
+  background: #1e1e1e;
+}
+
+body.dark-mode .navbar {
+  background: #333;
+}
+body.dark-mode .navbar a {
+  color: #ddd;
+}
+body.dark-mode .navbar a:hover {
+  color: #8dcda6;
+}
+
+body.dark-mode section {
+  background: #1e1e1e;
+  border-left-color: #555;
+}
+
+body.dark-mode .read-button {
+  background-color: #2e7d32;
+  color: white;
+}
+body.dark-mode .read-button:hover {
+  background-color: #4caf50;
+  box-shadow: 0 0 0 5px #4caf5055;
+}
+
+body.dark-mode .story-box {
+  background: #2a2a2a;
+  border-left-color: #4caf50;
+}
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 15px;
+  background: #4caf50; 
+  width: 0%;
+  z-index: 2000;
+}
+
+
+.header {
+  background: #DAF3E4;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header img {
+  width: 40%;   
+  height: auto;  
+}
+
+.navbar {
+  background: #8dcda6;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #c8e6c9;
+}
+
+.content {
+  padding: 20px 10%;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fff;
+  border-left: 5px solid #8dcda6;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background 0.3s, border-left-color 0.3s;
+}
+section h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+section p, section ul {
+  line-height: 1.6;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.story-box {
+  background: #f0f9f4;
+  padding: 15px;
+  border-left: 5px solid #8dcda6;
+  margin: 20px 0;
+  border-radius: 8px;
+  font-style: italic;
+  transition: background 0.3s, border-left-color 0.3s;
+}
+
+.read-button {
+  display: inline-block;
+  background-color: #f3f7fe;
+  color: #415735;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.read-button:hover {
+  background-color: #297a31;
+  color: white;
+  box-shadow: 0 0 0 5px #3bf6415f;
+}
+
+
+#Suggestions form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+#Suggestions input,
+#Suggestions textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+#Suggestions button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+#Suggestions button:hover {
+  background: #45a049;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 15px;
+  }
+  .navbar ul {
+    gap: 10px;
+  }
+  .navbar a {
+    font-size: 16px;
+  }
+}

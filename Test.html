@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="FCLogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>   
+    <title>Agricultural Production in Jordan</title>
+    <link rel="stylesheet" href="Test.css">
+</head>
+
+
+<body>
+
+    
+    <div class="container">
+        <header>
+            <h1>Agricultural Production in Jordan by Type (2020-2024)</h1>
+            <p class="description">
+                Pie chart showing the distribution of agricultural production in tons by farming type
+            </p>
+        </header>
+        
+        <div class="controls">
+            <select id="yearFilter">
+                <option value="all">All Years</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+            
+            <button id="applyFilter">Apply Filter</button>
+            <button id="resetFilter">Reset</button>
+            <button id="saveChart" class="save-btn">Save Chart</button>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="productionChart"></canvas>
+        </div>
+    </div>
+
+    <script src="Test.js"></script> 
+</body>
+</html>

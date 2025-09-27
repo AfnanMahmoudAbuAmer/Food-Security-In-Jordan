@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="FCLogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Land Distribution in Jordan</title>
+    <link rel="stylesheet" href="Test2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>Agricultural Land Distribution in Jordan by Type (2020-2024)</h1>
+            <p class="description">
+                Chart showing the distribution of cultivated areas in hectares by different types of agriculture
+                 in the Hashemite Kingdom of Jordan
+            </p>
+        </header>
+        
+        <div class="controls">
+            <select id="yearFilter">
+                <option value="all">All Years</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+            
+            <button id="applyFilter">Apply Filter</button>
+            <button id="resetFilter">Reset</button>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="areaChart"></canvas>
+        </div>
+        
+     
+    </div>
+     <script src="Test2.js"></script> 
+</body>
+</html>
